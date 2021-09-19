@@ -20,13 +20,24 @@ img {
 
 .links {
     text-align: center;
-    background-color: red;
+    background-color: hotpink;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 25px 50px 25px 50px;
+    padding: 25px;
     font-size: 30px;
     width: auto;
     text-shadow: 2px 2px 3px blue;
     border-radius: 80px;
 
+}
 
+.links a:hover {
+  color: green;
+  background-color: indigo;
+}
+
+.links a{
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
 }
